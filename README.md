@@ -46,8 +46,23 @@ If two ranks tie, for example, if both players have a pair of Jacks, then highes
 
 In order to use this program first you need to download the source code.
 
-### `cd poker/`
+`git clone https://github.com/nafelaraz/poker.git`
 
 
-# poker
-# poker
+Get in to the directory:
+`cd poker/src`
+
+Compile:
+`javac $(find . -name "*.java")`
+
+Create jar file:
+
+`jar cmf META-INF/MANIFEST.MF poker-game.jar $(find . -name "*.class")`
+
+Run the game:
+`cat ../poker-hands.txt | java -jar poker-game.jar`
+
+
+
+
+
