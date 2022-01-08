@@ -44,7 +44,7 @@ If two ranks tie, for example, if both players have a pair of Jacks, then highes
 
 ## Installation
 
-In order to use this program first you need to download the source code.
+In order to test this program, first you need to download the source code.
 
 `git clone https://github.com/nafelaraz/poker.git`
 
